@@ -232,7 +232,7 @@ class Level_1 extends Phaser.Scene {
 		// this.add.graphics().lineStyle(2, 0xFF0000).strokeRectShape(arrow_right).setScrollFactor(0);
 
         
-        const arrow_up_img = this.add.sprite(0, 0, 'jump').setOrigin(0);
+        const arrow_up_img = this.add.sprite(0, 0, 'jump').setOrigin(0).setScrollFactor(0);
         
 		const arrow_up = this.add.zone(1920-900, 0, 900, 1080);
 		arrow_up.setScrollFactor(0);
